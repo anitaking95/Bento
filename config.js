@@ -19,8 +19,8 @@ const CONFIG = {
 
 	// Theme
 	theme: 'latte-mocha',
-	imageBackground: false,
-  imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
+	imageBackground: true,
+  imageUrl: './assets/dan heng pom pom.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
 	// Greetings
 	greetingMorning: 'Why are you awake' + '?',
