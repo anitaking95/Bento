@@ -18,7 +18,7 @@ const CONFIG = {
   title: 'Bento',
 
 	// Theme
-	theme: 'bento',
+	theme: 'latte-mocha',
 	imageBackground: false,
   imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
@@ -32,14 +32,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	//weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	//weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	//weatherUnit: 'C', // 'F', 'C'
+	//language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	//trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	//defaultLatitude: '37.775',
+	//defaultLongitude: '-122.419',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -70,19 +70,19 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://outlook.live.com/mail/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Netflix',
+			icon: 'tv-2',
+			link: 'https://www.netflix.com/browse',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Hoyolab',
+			icon: 'gamepad-2',
+			link: 'https://www.hoyolab.com/home',
 		},
 		{
 			id: '5',
@@ -92,9 +92,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Youtube',
+			icon: 'twitter',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -144,24 +144,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'Watch',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Viki',
+					link: 'https://www.viki.com/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Disney+',
+					link: 'https://www.disneyplus.com/en-gb/home',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Now',
+					link: 'https://www.nowtv.com/gb/watch/entertainment/highlights',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Korean Reality',
+					link: 'https://kisstvshow.to/',
 				},
 			],
 		},
@@ -174,16 +174,16 @@ const CONFIG = {
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Twitter',
+					link: 'https://twitter.com/home',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Facebook',
+					link: 'https://www.facebook.com/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Amazon',
+					link: 'https://www.amazon.co.uk/',
 				},
 			],
 		},
