@@ -15,12 +15,12 @@ const CONFIG = {
 	name: 'Anita',
 	openInNewTab: true,
 	twelveHourFormat: false,
-  title: 'Bento',
+  	title: 'Bento',
 
 	// Theme
 	theme: 'latte-mocha',
 	imageBackground: true,
-  imageUrl: './assets/dan heng pom pom.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
+  	imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
 	// Greetings
 	greetingMorning: 'Why are you awake' + '?',
