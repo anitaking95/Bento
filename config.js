@@ -19,7 +19,7 @@ const CONFIG = {
 
 	// Theme
 	theme: 'latte-mocha',
-	imageBackground: true,
+	imageBackground: false,
   	imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
 	// Greetings
